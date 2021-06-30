@@ -4,4 +4,34 @@ layout: default
 
 {{ content }}
 
-{% include publications.html %}
+<div class="row g-5 mb-5">
+  <div>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Journals</h4>
+		  <ul>
+		    <li><b>M. Cheon</b>, T. Vigier, L. Krasula, J. Lee, P. Le Callet, J.-S. Lee, "Ambiguity of objective image quality metrics: A new methodology for performance evaluation," Signal Processing: Image Communication, vol. 93, Apr. 2021. <a class="publication-link" href="https://doi.org/10.1016/j.image.2021.116150" target="blank">Detail</a>, <a class="publication-link" href="https://arxiv.org/abs/2101.07439" target="blank">arXiv</a>, <a class="publication-link" href="https://github.com/manricheon/AmbiguityIntervals" target="blank">Github</a></li>
+		    <li>J.-H. Choi, J.-H. Kim, <b>M. Cheon</b>, and J.-S. Lee, "Volatile-nonvolatile memory network for progressive image super-resolution," IEEE Access, vol. 9, Mar. 2021. <a class="publication-link" href="https://doi.org/10.1109/ACCESS.2021.3063760" target="blank">Detail</a></li>
+		    <li>J.-H. Kim, J.-H. Choi, <b>M. Cheon</b>, and J.-S. Lee, "MAMNet: Multi-path adaptive modulation network for image super-resolution," Neurocomputing, 2020. <a class="publication-link" href="https://doi.org/10.1016/j.neucom.2020.03.069" target="blank">Detail</a>, <a class="publication-link" href="https://arxiv.org/abs/1811.12043" target="blank">arXiv</a>, <a class="publication-link" href="https://github.com/junhyukk/MAMNet-tensorflow" target="blank">Github</a></li>
+		    <li>J.-H. Choi, J.-H. Kim, <b>M. Cheon</b>, and J.-S. Lee, "Deep learning-based image super-resolution considering quantitative and perceptual quality," Neurocomputing, 2019. <a class="publication-link" href="https://doi.org/10.1016/j.neucom.2019.06.103" target="blank">Detail</a>, <a class="publication-link" href="https://arxiv.org/abs/1809.04789" target="blank">arXiv</a>, <a class="publication-link" href="https://github.com/idearibosome/tf-perceptual-eusr" target="blank">Github</a></li>
+		    <li><b>M. Cheon</b> and J.-S. Lee, "Subjective and objective quality assessment of compressed 4K UHD videos for immersive experience," IEEE Transactions on Circuits and Systems for Video Technology, vol. 28, no. 7, pp. 1467-1480, Jul. 2018.  <a class="publication-link" href="https://doi.org/10.1109/TCSVT.2017.2683504" target="blank">Detail</a>, <a class="publication-link" href="http://mcml.yonsei.ac.kr/downloads/4kuhdvideoquality" target="blank">Dataset</a></li>
+		    <li><b>M. Cheon</b> and J.-S. Lee, "Evaluation of objective quality metrics for multidimensional video scalability," Journal of Visual Communication and Image Representation, vol. 35, pp. 132-145, 2016.  <a class="publication-link" href="http://dx.doi.org/10.1016/j.jvcir.2015.12.008" target="blank">Detail</a></li>
+		    <li><b>M. Cheon</b> and J.-S. Lee, "On ambiguity of objective image quality assessment," Electronics Letters, vol. 52(1), pp. 34-35, 2016.  <a class="publication-link" href="http://dx.doi.org/10.1049/el.2015.2801" target="blank">Detail</a></li>
+		    <li><b>M. Cheon</b> and J.-S. Lee, "Temporal resolution vs. visual saliency in videos: Analysis of gaze patterns and evaluation of saliency models," Signal Processing: Image Communication, vol. 39, pp. 405-417, 2015.  <a class="publication-link" href="http://dx.doi.org/10.1016/j.image.2015.05.010" target="blank">Detail</a></li>
+		  </ul>
+      </div>
+    </div>
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h4>Conferences</h4>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.academic-experience %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
