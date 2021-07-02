@@ -3,7 +3,7 @@ layout: post
 title: "Won the NTIRE 2021 Challenge on Perceptual Image Quality Assessment"
 ---
 
-올해 초에 진행한 연구가 CVPR - NTIRE Workshop Challenge 중 Perceptual Image Quality Assessment Challenge 에서 1등을 달성
+CVPR / NTIRE 2021 Perceptual Image Quality Assessment Challenge 에서 1등을 달성
 --
 
 
