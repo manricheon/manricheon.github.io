@@ -4,7 +4,9 @@ title: "Won the NTIRE 2021 Challenge on Perceptual Image Quality Assessment"
 ---
 
 올해 초에 진행한 연구가 CVPR - NTIRE Workshop Challenge 중 Perceptual Image Quality Assessment Challenge 에서 1등을 달성했습니다.
+
 --
+
 
 CVPR에서 Image Restoration/Enhancement 주제와 관련해 지속적으로 열리고 있는 NTIRE(New Trends in Image Restoration and Enhancement) Workshop이 올해도 열렸습니다. (6월 19일 Full-Day)
 이 워크샵에서 열리는 챌린지들은 매년 다양한 변화가 시도되고 있는 것 같은데요, 그런 맥락에서인지 Perceptual Image Quality Assessment 내용이 올해 처음으로 열렸습니다.
