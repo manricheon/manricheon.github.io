@@ -8,8 +8,7 @@ layout: default
   <div class="col-md-12">
     <h3 class="fw-bold border-bottom pb-3 mb-5">{{ page.title }}</h3>
     {% for post in site.posts %}
-      {{post}}, {{post.url}}
-      <p>{{ post.date | date: "%B %-d, %Y" }} - <a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a></p>
+      <p>{{ post.date | date: "%B %-d, %Y" }} - <a href="{{ site.github.url }}/{{ post.url }}">{{ post.url }}</a></p>
     {% endfor %}
   </div>
 </div>
