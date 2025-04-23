@@ -1,61 +1,76 @@
-primary_name: "Your Name"
+primary_name: "Manri Cheon"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Manri Cheon"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-  name: Position 1 with logo
-- name: Position 2 without logo
+# - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+  # name: Position 1 with logo
+# - name: Position 2 without logo
 
 
-email: "your@email.com"
+email: "manri.cheon@gmail.com"
 # cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
+gscholar: https://scholar.google.com/citations?user=35GLQ8oAAAAJ  # This is an example, replace it with your own Google Scholar ID
+github: manricheon
+# twitter: your_twitter_id  # Do not include the '@' symbol
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
+linkedin: manricheon
 # orcid: 0000-0000-0000-0000
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+  I am a Research Engineer/Scientist at <a href="https://research.samsung.com/" target="_blank">Samsung Research</a> in Seoul, South Korea.
+  I received Ph.D. from <a href="https://www.yonsei.ac.kr/en_sc/" target="_blank">Yonsei University</a> in 2018, under the supervision of Prof. Jong-Seok Lee at the <a href="https://mcml.yonsei.ac.kr/" target="_blank">MCML Group</a>.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    I work at the intersection of AI and perceptual image processing, with a focus on enhancing the visual quality of images and videos.
+    My research explores lightweight and efficient solutions for mobile platforms, aiming to deliver high-quality results even under strict resource constraints.
+    I am particularly interested in applying AI models to enhance the perceptual quality of images and videos.
+    I am open to discussing potential collaborations and future research directions.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
-portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  <p>Research Interests</p>
+  <ul>
+    <li>Perceptual Image Processing</li>
+    <li> Perceptual Quality Metrics</li>
+    <li> AI-based Camera ISP on Mobile Devices</li>
+    <li> Generative Models</li>
+  </ul>
+
+
+portrait_url: /assets/images/photos/portrait-mrc.jpg
+# portrait_caption: >-
+  # Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
-  position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+- name: Yonsei University
+  position: Ph.D. in Engineering
+  date: Mar. 2012 - Feb. 2018
+- name: Yonsei University
+  position: B.S. in Electrical and Electronics Engineering
+  date: Mar. 2005 - Feb. 2012
 
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+experience:
+- name: Samsung Research, Samsung Electronics
+  position: Staff Engineer
+  date: Jun. 2024 - present
+- name: LG Electronics
+  position: Senior Research Engineer
+  date: Feb. 2019 - Feb. 2024
+- name: Yonsei University
+  position: Postdoctoral Researcher
+  date: Mar. 2018 - Jan. 2018
 
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
+- name: Winner Award at NTIRE 2021 Challenge on Perceptual Image Quality Assessment
   date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: Honorable Mention Award at NTIRE 2020 Challenge on Image Demoireing
+  date: 2020
+- name: 2nd Place Award at PIRM 2018 Challenge on Perceptual Super Resolution
+  date: 2018
+
+service:
+- name: Reviewer - CVPR24, CVPR25
