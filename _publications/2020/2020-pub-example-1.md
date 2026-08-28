@@ -4,6 +4,7 @@ date:           2020-08-01 00:09:00 UTC+9
 selected:       false
 pub:            "Neurocomputing"
 pub_date:       "2020"
+pub_last:       ' <span class="badge badge-pill badge-publication badge-info">160+ Citations</span>'
 authors:
 - Jun-Hyuk Kim
 - Jun-Ho Choi

@@ -4,6 +4,7 @@ date:           2018-07-01 00:09:00 UTC+9
 selected:       true
 pub:            "IEEE Transactions on Circuits and Systems for Video Technology"
 pub_date:       "2018"
+pub_last:       ' <span class="badge badge-pill badge-publication badge-info">130+ Citations</span>'
 authors:
 - Manri Cheon
 - Jong-Seok Lee

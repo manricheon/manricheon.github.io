@@ -1,8 +1,9 @@
-{% assign news_by_year = site.news | sort: "date" | reverse | slice: 0, include.limit | group_by_exp: "item", "item.date | date: '%Y'" -%}
+{% assign news_by_year = site.news | sort: "date" | reverse | slice: 0, include.limit | group_by_exp: "item", "item.date
+| date: '%Y'" -%}
 
-<div class="my-3 bg-white shadow-sm rounded-sm">
-    <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i> News</h6>
-    <div class="px-3 pb-1">
+<div class="card">
+    <h6 class="card-header border-0 bg-transparent py-3 mb-0"><i class="fas fa-rss"></i> News</h6>
+    <div class="card-body px-3 pb-1">
         {% for year in news_by_year %}
         <div class="media py-1 {% if not_first -%}border-top border-gray{%- endif %}">
             {% assign not_first = true %}

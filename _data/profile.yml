@@ -22,25 +22,20 @@ linkedin: manricheon
 short_bio_text_justify: false
 short_bio: >-
   <p>
-  I am a Research Engineer/Scientist at <a href="https://research.samsung.com/" target="_blank">Samsung Research</a> in Seoul, South Korea.
-  I received Ph.D. from <a href="https://www.yonsei.ac.kr/en_sc/" target="_blank">Yonsei University</a> in 2018, under the supervision of Prof. Jong-Seok Lee at the <a href="https://mcml.yonsei.ac.kr/" target="_blank">MCML Group</a>.
+    I am a Researcher working on Multimodal Large Language Models (MLLMs), with a particular focus on visual token efficiency and efficient deep learning architectures for practical computing platforms.
   </p>
   <p>
-    I work at the intersection of AI and perceptual image processing, with a focus on enhancing the visual quality of images and videos.
-    My research explores lightweight and efficient solutions for mobile platforms, aiming to deliver high-quality results even under strict resource constraints.
-    I am particularly interested in applying AI models to enhance the perceptual quality of images and videos.
-    I am open to discussing potential collaborations and future research directions.
+    With over a decade of research experience—including a Ph.D. from <a href="https://www.yonsei.ac.kr/en_sc/" target="_blank">Yonsei University</a> (2018) under the supervision of Prof. Jong-Seok Lee at the <a href="https://mcml.yonsei.ac.kr/" target="_blank">MCML Group</a>—my technical background spans perceptual image and video quality processing, AI-based camera ISP, generative vision models, and multimodal architectures. By bridging deep expertise in perceptual visual processing with efficient multimodal AI, I strive to advance high-fidelity, resource-conscious intelligent systems.
   </p>
-
-  <p>Research Interests</p>
-  <ul>
-    <li>Perceptual Image Processing</li>
-    <li> Perceptual Quality Metrics</li>
-    <li> AI-based Camera ISP on Mobile Devices</li>
-    <li> Generative Models</li>
+  <p class="mb-2 font-weight-bold" style="font-size: 1.05rem;">Research Interests</p>
+  <ul class="mb-0" style="columns: 2; -webkit-columns: 2; -moz-columns: 2;">
+    <li>Multimodal Large Language Models (MLLMs)</li>
+    <li>Visual Token Efficiency</li>
+    <li>Efficient Deep Learning Architectures</li>
+    <li>AI-based Camera ISP & Perceptual Image/Video Processing</li>
+    <li>Perceptual Quality Assessment (IQA / VQA)</li>
+    <li>Generative Vision Models</li>
   </ul>
-
-
 portrait_url: /assets/images/photos/portrait-mrc.jpg
 # portrait_caption: >-
   # Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
@@ -55,22 +50,22 @@ education:
 
 experience:
 - name: Samsung Research, Samsung Electronics
-  position: Staff Engineer
+  position: Researcher
   date: Jun. 2024 - present
 - name: LG Electronics
   position: Senior Research Engineer
   date: Feb. 2019 - Feb. 2024
 - name: Yonsei University
   position: Postdoctoral Researcher
-  date: Mar. 2018 - Jan. 2018
+  date: Mar. 2018 - Jan. 2019
 
 awards:
-- name: Winner Award at NTIRE 2021 Challenge on Perceptual Image Quality Assessment
+- name: Winner Award (1st Place), NTIRE 2021 Challenge on Perceptual Image Quality Assessment
   date: 2021
-- name: Honorable Mention Award at NTIRE 2020 Challenge on Image Demoireing
+- name: Honorable Mention Award, NTIRE 2020 Challenge on Image Demoireing
   date: 2020
-- name: 2nd Place Award at PIRM 2018 Challenge on Perceptual Super Resolution
+- name: 2nd Place Award, PIRM 2018 Challenge on Perceptual Super Resolution
   date: 2018
 
 service:
-- name: Reviewer - CVPR24-25, ICCV25, 
+- name: "Reviewer: CVPR (2024, 2025), ICCV (2025), ECCV (2026), BMVC (2026), WACV (2026)"
