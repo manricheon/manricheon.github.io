@@ -72,9 +72,33 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .badge-publication {
-    font-size: 0.9rem;
-    padding: 0.4em 0.8em;
-    border-radius: 20px;
+    font-size: 0.75rem !important;
+    font-weight: 500 !important;
+    padding: 0.15em 0.6em !important;
+    border-radius: 12px !important;
+    letter-spacing: 0.01em !important;
+    vertical-align: 1px !important;
+    margin-left: 0.35rem !important;
+    border: 1px solid transparent !important;
+}
+
+.badge-publication.badge-info,
+.badge-publication.badge-primary {
+    background-color: #f1f5f9 !important;
+    color: #475569 !important;
+    border-color: #cbd5e1 !important;
+}
+
+.badge-publication.badge-success {
+    background-color: #f0fdf4 !important;
+    color: #166534 !important;
+    border-color: #bbf7d0 !important;
+}
+
+.badge-publication.badge-warning {
+    background-color: #fffbeb !important;
+    color: #92400e !important;
+    border-color: #fde68a !important;
 }
 
 .inline-badge {
